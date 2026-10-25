@@ -1,0 +1,94 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                    🚗 FIXXY - START HERE 🚗                          ║
+╔══════════════════════════════════════════════════════════════════════╗
+
+IMPORTANT: FIXXY is a DESKTOP APPLICATION, not a web app!
+It will open in a window on your desktop, NOT in Chrome browser.
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  STEP 1: Configure MySQL Password (ONE TIME ONLY)                    ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Run this in PowerShell or Command Prompt:
+
+    python setup_fixxy.py
+
+Enter your MySQL root password when prompted.
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  STEP 2: Run FIXXY                                                    ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Option A - Double-click this file:
+    run_fixxy.bat
+
+Option B - Run in terminal:
+    python fixxy-3.py
+
+A desktop window will open with the FIXXY application!
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  STEP 3: Login                                                        ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Default admin account:
+    Username: admin
+    Password: admin123
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  IF YOU DON'T KNOW YOUR MYSQL PASSWORD                               ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Try running this to test common passwords:
+    python find_mysql_password.py
+
+If that doesn't work, you'll need to reset your MySQL password.
+See MYSQL_SETUP.md for instructions.
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  ABOUT CHROME/WEB BROWSER                                             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+FIXXY cannot run in Chrome because it's built with Tkinter (desktop GUI).
+
+However, you CAN:
+✅ Export invoices as HTML and open them in Chrome
+✅ Print bills from Chrome after export
+✅ View the generated invoice HTML files in any browser
+
+The main application itself runs as a desktop window.
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  NEED HELP?                                                           ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+📖 README.md - Complete documentation
+📖 MYSQL_SETUP.md - MySQL installation guide  
+📖 QUICKSTART.md - Quick 5-minute setup guide
+📖 MIGRATION_SUMMARY.md - Technical details
+
+╔══════════════════════════════════════════════════════════════════════╗
+║  QUICK REFERENCE                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Test MySQL connection:
+    python test_mysql_connection.py
+
+Setup wizard (configure password):
+    python setup_fixxy.py
+
+Run FIXXY:
+    python fixxy-3.py
+    OR
+    Double-click: run_fixxy.bat
+
+═══════════════════════════════════════════════════════════════════════
+
+🎯 READY TO START?
+
+1. Run: python setup_fixxy.py
+2. Enter your MySQL password
+3. Run: python fixxy-3.py
+4. Login with: admin / admin123
+
+═══════════════════════════════════════════════════════════════════════

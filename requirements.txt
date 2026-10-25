@@ -1,0 +1,8 @@
+# FIXXY - Car Spare Parts & Billing System
+# Python dependencies
+
+# MySQL database connector
+mysql-connector-python>=8.0.0
+
+# Note: tkinter is included with Python standard library
+# No additional GUI packages required
